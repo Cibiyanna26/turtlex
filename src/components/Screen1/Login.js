@@ -97,7 +97,7 @@ const Login = () =>{
                                 className="text-[#2752E7] text-[14px]"
                                 onClick={()=>notifyMessage('Feature not available, under development')}
                                 aria-label="forget password"
-                                >Forget password ?</button>
+                                >Forgot password ?</button>
                             <button aria-label="click to check privacy settings"
                                 className="text-[#2752E7] text-[14px]"
                                 onClick={()=>notifyMessage('Feature not available, under development')}
