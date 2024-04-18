@@ -41,7 +41,7 @@ const Content = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-col gap-[32px] mt-[24px]">
+            <div className="w-full flex flex-col gap-[32px] my-[24px]">
                 <AboutBitcoin/>
                 <Resources/>
                 <MarketStats/>
