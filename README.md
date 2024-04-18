@@ -18,6 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## instruction
+
+ 1) initially sign in page will be show after sign in , after signed in successfully you will be redirected to home page
+ 2) without signin you can move to home page by click the close button in sign in page
+ 3) in home page on the top the back button redirect you to signin page
+
 ## Screen 1
 
 ![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/19049927-be4b-4070-ba27-71a8cefb3c0f)
