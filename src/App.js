@@ -13,7 +13,7 @@ function App() {
     });
   }, [])
   return (
-    <div className="App abel-regular w-[100vw]  min-h-[100vh] scroll-smooth no-scrollbar overflow-hidden" data-aos="fade-up">
+    <div className="App abel-regular w-[100vw] scroll-smooth overflow-hidden" data-aos="fade-up">
       <Toaster/>
         <Router>
           <Routes>

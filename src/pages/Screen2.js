@@ -10,9 +10,9 @@ const Screen2=() =>{
         <>
          
             <Topbar />
-            <div className="h-[calc(100vh-190px)] overflow-y-auto no-scrollbar">
+            {/* <div className="h-[calc(100vh-190px)] overflow-y-auto no-scrollbar"> */}
                 <Content />
-            </div>
+            {/* </div> */}
             <FooterNavbar />
             
         </>
