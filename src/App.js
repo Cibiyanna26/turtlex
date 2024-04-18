@@ -1,13 +1,19 @@
 import './App.css';
-import React from 'react';
+import React , {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Screen1 from './pages/Screen1';
 import Screen2 from './pages/Screen2';
-import { Toaster } from 'react-hot-toast';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    });
+  }, [])
   return (
-    <div className="App abel-regular w-[100vw]">
+    <div className="App abel-regular w-[100vw]  min-h-[100vh] scroll-smooth no-scrollbar overflow-hidden" data-aos="fade-up">
         <Router>
           <Routes>
             <Route path='/screen1' element={<Screen1/>}  />

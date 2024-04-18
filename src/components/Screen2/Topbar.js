@@ -1,5 +1,6 @@
 import React from "react";
 import { notifyMessage } from "../../utils/notify";
+import { Link } from "react-router-dom";
 
 const Topbar = () =>{
     return(
@@ -7,11 +8,11 @@ const Topbar = () =>{
             <div 
                 className="w-[100vw] h-[56px] py-[16px] px-[24px] mt-[44px] flex justify-between items-center text-[18px] border-[1px] border-[#CFCFCF]"
             >
-                <button className="" onClick={() => notifyMessage('under developments ...')}>
+                <Link to={'/screen1'} className="">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 6L4 12M4 12L10 18M4 12H19" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                </button>
+                </Link>
                 <text className="w-[71px] h-[26px]">
                         $25,350.0
                 </text>
