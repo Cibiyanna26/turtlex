@@ -3,10 +3,12 @@ import AboutBitcoin from "./AboutBitcoin";
 import MarketStats from "./MarketStats";
 import Resources from "./Resources";
 import { notifyMessage } from "../../utils/notify";
+import { Toaster } from "react-hot-toast";
 
 const Content = () =>{
     return(
         <div className="mx-[24px] mt-[10px]">
+            <Toaster/>
             <div>
                 <button onClick={()=>notifyMessage('Trade Started')} className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" >Trade</button>
             </div>
