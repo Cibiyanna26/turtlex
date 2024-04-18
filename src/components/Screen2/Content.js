@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 
 const Content = () =>{
     return(
-        <div className="mx-[24px] mt-[10px]">
+        <div className="mx-[24px] mt-[10px] fade-up fade-up">
             <Toaster/>
             <div>
                 <button onClick={()=>notifyMessage('Trade Started')} className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">Trade</button>

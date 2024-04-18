@@ -57,7 +57,7 @@ const Login = () =>{
 
     return(
         <>
-            <div className="relative flex justify-center mt-[18px]">
+            <div className="relative flex justify-center mt-[18px] fade-up">
                 <div className="w-[327px] flex flex-col gap-[56px]">
                     <div className="flex flex-col gap-[48px]">
                         <div className="flex flex-col gap-[32px]">
