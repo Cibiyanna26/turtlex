@@ -84,7 +84,7 @@ const Login = () =>{
                                         onChange={(e) => setPassword(e.target.value)}
                                         id="password_input"
                                         ></input>
-                                    <button id="toggle_button" className="absolute right-[15px] top-[50px]" onClick={()=>toggle()}>
+                                    <button aria-label="toggle password to hide and open" id="toggle_button" className="absolute right-[15px] top-[50px]" onClick={()=>toggle()}>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#707070" width="20" height="20">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
                                         </svg>
@@ -108,7 +108,7 @@ const Login = () =>{
                     <div>
                         <button 
                             className="flex justify-center items-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px] hover:bg-[#2751e7de] duration-200 ease-in"
-                            onClick={handleClick} aria-lable="click to sign in"
+                            onClick={handleClick} aria-label="click to sign in"
                             >{
                                 loading == 0 ? 'Sign In ' :
 
