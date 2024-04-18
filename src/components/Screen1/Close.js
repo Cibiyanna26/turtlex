@@ -1,5 +1,4 @@
 import React from "react";
-import { notifyMessage } from "../../utils/notify";
 import { Link } from "react-router-dom";
 const Close = () =>{
     return (

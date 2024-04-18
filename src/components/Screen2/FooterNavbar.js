@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Screen1/Footer";
 
 const FooterNavbar = () => {
     return(

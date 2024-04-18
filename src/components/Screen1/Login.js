@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { notifyError,notifySuccess , notifyMessage } from "../../utils/notify";
-import { Toaster } from 'react-hot-toast';
-import { validateEmail , validatePassword } from "../../utils/small.service";
+import { validateEmail  } from "../../utils/small.service";
 import { useNavigate } from "react-router-dom";
 
 const Login = () =>{

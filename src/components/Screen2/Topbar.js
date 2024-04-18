@@ -1,5 +1,4 @@
 import React , {useRef} from "react";
-import { notifyMessage } from "../../utils/notify";
 import { Link } from "react-router-dom";
 
 const Topbar = () =>{

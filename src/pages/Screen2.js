@@ -1,4 +1,4 @@
-import React , {useEffect} from "react";
+import React  from "react";
 import Topbar from "../components/Screen2/Topbar";
 import Content from "../components/Screen2/Content";
 import FooterNavbar from "../components/Screen2/FooterNavbar";
