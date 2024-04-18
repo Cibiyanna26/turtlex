@@ -3,7 +3,6 @@ import React , {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Screen1 from './pages/Screen1';
 import Screen2 from './pages/Screen2';
-import { Toaster } from 'react-hot-toast';
 import ErrorPage from './components/Errorpage';
 
 

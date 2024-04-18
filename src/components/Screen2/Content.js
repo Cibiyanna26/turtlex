@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 import SalesUp from '../../assets/sales-up-graph-svgrepo-com.svg'
 const Content = () =>{
     return(
-        <div className="mx-[24px] my-[15px] fade-up fade-up">
+        <div className="mx-[24px] my-[15px] fade-up ">
             <Toaster/>
             <div>
                 <button onClick={()=>notifySuccess('Trade Started')} className="text-center flex flex-row  gap-[12px] items-center justify-center text-[24px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">
@@ -41,7 +41,7 @@ const Content = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-col gap-[32px] my-[24px]">
+            <div className="w-full flex flex-col gap-[32px] mt-[24px]">
                 <AboutBitcoin/>
                 <Resources/>
                 <MarketStats/>

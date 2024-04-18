@@ -6,11 +6,8 @@ import { useLocation } from "react-router-dom";
 const FooterNavbar = () => {
 
     const location = useLocation();
-
     const isHome = location.pathname === "/home";
     const isSignin = location.pathname === "/signin";
-
-
 
     return(
 
