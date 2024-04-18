@@ -7,15 +7,15 @@ import FooterNavbar from "../components/Screen2/FooterNavbar";
 const Screen2=() =>{
  
     return(
-        <>
+        <div className="">
          
             <Topbar />
-            <div className="h-[calc(100vh-180px)] overflow-y-auto no-scrollbar">
+            <div className=" overflow-y-auto no-scrollbar">
                 <Content />
             </div>
             <FooterNavbar />
             
-        </>
+        </div>
     )
 }
 

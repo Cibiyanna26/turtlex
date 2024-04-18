@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   
   return (
-    <div className="App abel-regular w-[100vw] h-[100vh] scroll-smooth overflow-hidden">
+    <div className="App abel-regular w-[100vw] scroll-smooth overflow-hidden relative">
         <Router>
           <Routes>
             <Route path='/screen1' element={<Screen1/>}  />
