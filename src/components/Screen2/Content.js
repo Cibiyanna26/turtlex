@@ -10,7 +10,7 @@ const Content = () =>{
         <div className="mx-[24px] mt-[10px]">
             <Toaster/>
             <div>
-                <button onClick={()=>notifyMessage('Trade Started')} className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" >Trade</button>
+                <button onClick={()=>notifyMessage('Trade Started')} className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">Trade</button>
             </div>
             <div className="mt-[20px]">
                 <div className=" border-[1px] border-[#CFCFCF] w-full h-[162px] rounded-[8px] flex gap-[10px] p-[20px]">
