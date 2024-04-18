@@ -17,7 +17,7 @@ const Content = () =>{
             <div className="mt-[20px]">
                 <div className=" border-[1px] border-[#CFCFCF] w-full h-[162px] rounded-[8px] flex gap-[10px] p-[20px]">
                     <div className=" flex flex-col gap-[8px] w-full h-[100px]">
-                        <div className="text-bold text-[21px] font-medium">When's the best time to buy?</div>
+                        <div className="text-bold text-[18px] font-medium">When's the best time to buy?</div>
                         <div className="text-[16px] text-[#707070]">Timing any invesment is hard, which is why many investors use dollar cost averaging.</div>
                     </div>
                     <div className="h-[100px] flex items-end">
