@@ -4,7 +4,7 @@ import Footer from "../Screen1/Footer";
 const FooterNavbar = () => {
     return(
         <>
-            <div className="w-[375px] h-[84px] border-[1px] border-[#CFCFCF] fixed bottom-0 z-30 bg-white">
+            <div className="w-[100vw] h-[84px] border-[1px] border-[#CFCFCF] fixed bottom-0 z-30 bg-white">
                 <div className="relative top-[7px] px-[37.5px] w-[301px] h-[43px] flex flex-row gap-[35px]">
                     <div className="flex flex-col items-center w-[24px] h-[40px]">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
