@@ -41,4 +41,13 @@ You may also see any lint errors in the console.
 
 ![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/89961bac-60cb-40ba-a345-3926c8656a30)
 
+## Error page for unmatched urls
+
+![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/2a8cc891-6f9a-447b-aafa-9fbe349f0155)
+
+## Toast Notification & Signup Validation 
+
+![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/b967b421-a5ad-40a5-933a-ce8d1d1dc88e)
+
+
 
