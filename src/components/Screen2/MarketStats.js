@@ -69,7 +69,7 @@ const MarketStats = () => {
         <>
             <div className="flex flex-col gap-[12px]">
                 <div className="font-bold text-[18px]">Market stats</div>
-                <div className="flex flex-col gap-[18px] text-[16px] w-[327px]">
+                <div className="flex flex-col gap-[18px] text-[16px]">
                     {
                         marketStatsList.map((item, index) => {
                             return (

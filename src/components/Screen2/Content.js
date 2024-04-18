@@ -6,13 +6,13 @@ import Resources from "./Resources";
 
 const Content = () =>{
     return(
-        <div className="w-[327px] mx-[24px] mt-[10px]">
+        <div className="mx-[24px] mt-[10px]">
             <div>
-                <button className="text-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px]" >Trade</button>
+                <button className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] text-white rounded-[8px]" >Trade</button>
             </div>
             <div className="mt-[20px]">
-                <div className=" border-[1px] border-[#CFCFCF] w-[327px] h-[162px] rounded-[8px] flex gap-[10px] p-[20px]">
-                    <div className=" flex flex-col gap-[8px] min-w-[195px] h-[100px]">
+                <div className=" border-[1px] border-[#CFCFCF] w-full h-[162px] rounded-[8px] flex gap-[10px] p-[20px]">
+                    <div className=" flex flex-col gap-[8px] w-full h-[100px]">
                         <div className="text-bold text-[18px]">When's the best time to buy?</div>
                         <div className="text-[16px] text-[#707070]">Timing any invesment is hard, which is why many investors use dollar cost averaging.</div>
                     </div>
@@ -37,7 +37,7 @@ const Content = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w-[327px] h-[686px] flex flex-col gap-[32px] mt-[24px]">
+            <div className="w-full h-[686px] flex flex-col gap-[32px] mt-[24px]">
                 <AboutBitcoin/>
                 <Resources/>
                 <MarketStats/>

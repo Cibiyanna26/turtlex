@@ -5,7 +5,7 @@ const Topbar = () =>{
     return(
         <>
             <div 
-                className="w-[375px] h-[56px] py-[16px] px-[24px] mt-[44px] flex justify-between items-center text-[18px] border-[1px] border-[#CFCFCF]"
+                className="w-[100vw] h-[56px] py-[16px] px-[24px] mt-[44px] flex justify-between items-center text-[18px] border-[1px] border-[#CFCFCF]"
             >
                 <button className="" onClick={() => notifyMessage('under developments ...')}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

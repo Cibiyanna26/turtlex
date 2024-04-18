@@ -7,7 +7,7 @@ import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
-    <div className="App abel-regular w-[375px]">
+    <div className="App abel-regular w-[100vw]">
         <Router>
           <Routes>
             <Route path='/screen1' element={<Screen1/>}  />
