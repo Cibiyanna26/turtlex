@@ -4,18 +4,20 @@ import MarketStats from "./MarketStats";
 import Resources from "./Resources";
 import { notifyMessage } from "../../utils/notify";
 import { Toaster } from "react-hot-toast";
-
+import SalesUp from '../../assets/sales-up-graph-svgrepo-com.svg'
 const Content = () =>{
     return(
         <div className="mx-[24px] my-[15px] fade-up fade-up">
             <Toaster/>
             <div>
-                <button onClick={()=>notifyMessage('Trade Started')} className="text-center text-[16px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">Trade</button>
+                <button onClick={()=>notifyMessage('Trade Started')} className="text-center flex flex-row  gap-[12px] items-center justify-center text-[24px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">
+                    Trade<img src={SalesUp} className="w-[24px] h-[24px]"></img> 
+                </button>
             </div>
             <div className="mt-[20px]">
                 <div className=" border-[1px] border-[#CFCFCF] w-full h-[162px] rounded-[8px] flex gap-[10px] p-[20px]">
                     <div className=" flex flex-col gap-[8px] w-full h-[100px]">
-                        <div className="text-bold text-[18px]">When's the best time to buy?</div>
+                        <div className="text-bold text-[21px] font-medium">When's the best time to buy?</div>
                         <div className="text-[16px] text-[#707070]">Timing any invesment is hard, which is why many investors use dollar cost averaging.</div>
                     </div>
                     <div className="h-[100px] flex items-end">

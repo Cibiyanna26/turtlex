@@ -106,7 +106,7 @@ const Login = () =>{
                     </div>
                     <div>
                         <button 
-                            className="flex justify-center items-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px] hover:bg-[#2751e7de] duration-200 ease-in"
+                            className="flex justify-center items-center text-[20px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px] hover:bg-[#2751e7de] duration-200 ease-in"
                             onClick={handleClick} aria-label="click to sign in"
                             >{
                                 loading == 0 ? 'Sign In ' :
