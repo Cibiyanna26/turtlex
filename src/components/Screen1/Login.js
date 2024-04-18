@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { notifyError,notifySuccess , notifyMessage } from "../../utils/notify";
 import { Toaster } from 'react-hot-toast';
 import { validateEmail , validatePassword } from "../../utils/small.service";
-import { wait } from "@testing-library/user-event/dist/utils";
+import { useNavigate } from "react-router-dom";
 
 const Login = () =>{
 
-
+    const navigate = useNavigate();
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [loading,setLoading] = useState(0);
@@ -30,6 +30,7 @@ const Login = () =>{
             }
             else {
                 notifySuccess('Login Successful');
+                navigate('/home');
             }
             setLoading(0);
         })

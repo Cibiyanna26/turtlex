@@ -1,6 +1,6 @@
 import './App.css';
 import React , {useEffect} from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Screen1 from './pages/Screen1';
 import Screen2 from './pages/Screen2';
 
@@ -11,8 +11,9 @@ function App() {
     <div className="App abel-regular w-[100vw] scroll-smooth overflow-hidden relative">
         <Router>
           <Routes>
-            <Route path='/screen1' element={<Screen1/>}  />
-            <Route path='/' element={<Screen2/>}></Route>
+            <Route path='/signin' element={<Screen1/>}  />
+            <Route path='/home' element={<Screen2/>}></Route>
+            <Route path='/' element={<Navigate to={'/signin'}/>}/>
           </Routes>
         </Router>
       </div>
