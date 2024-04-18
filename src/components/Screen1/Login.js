@@ -2,24 +2,37 @@ import React, { useState } from "react";
 import { notifyError,notifySuccess , notifyMessage } from "../../utils/notify";
 import { Toaster } from 'react-hot-toast';
 import { validateEmail , validatePassword } from "../../utils/small.service";
+import { wait } from "@testing-library/user-event/dist/utils";
 
 const Login = () =>{
 
 
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
+    const [loading,setLoading] = useState(0);
+
+   
 
     function handleClick(e){
-        if(!email || !password){
-            notifyError('Please fill all the fields');
-        }
-        else if(!validateEmail(email)){
-            notifyError('Please enter valid email address');
-        }
-        else{
-            notifySuccess('Login Successful');
-        }
-        
+        setLoading(1);
+        const waitsec = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('success');
+            }, 1500);
+        })
+        waitsec.then((res)=>{
+            console.log(res)
+            if (!email || !password) {
+                notifyError('Please fill all the fields');
+            }
+            else if (!validateEmail(email)) {
+                notifyError('Please enter valid email address');
+            }
+            else {
+                notifySuccess('Login Successful');
+            }
+            setLoading(0);
+        })
     }
 
     function toggle() {
@@ -92,9 +105,11 @@ const Login = () =>{
                     </div>
                     <div>
                         <button 
-                            className="text-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px]"
+                            className="text-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px] hover:bg-[#2751e7de] duration-200 ease-in"
                             onClick={handleClick}
-                            >Sign In
+                            >{
+                                loading == 0 ? 'Sign In ' : <i class="fa fa-circle-o-notch fa-spin"></i>
+                            }
                         </button>
                     </div>
                 </div>

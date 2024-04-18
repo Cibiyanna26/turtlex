@@ -8,6 +8,7 @@ const Screen1 = () =>{
     
     return(
         <>
+        
                 <Toaster/>
                 <Close/>
                 <Login/>

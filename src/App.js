@@ -5,7 +5,7 @@ import Screen1 from './pages/Screen1';
 import Screen2 from './pages/Screen2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Toaster } from 'react-hot-toast';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -14,6 +14,7 @@ function App() {
   }, [])
   return (
     <div className="App abel-regular w-[100vw]  min-h-[100vh] scroll-smooth no-scrollbar overflow-hidden" data-aos="fade-up">
+      <Toaster/>
         <Router>
           <Routes>
             <Route path='/screen1' element={<Screen1/>}  />
