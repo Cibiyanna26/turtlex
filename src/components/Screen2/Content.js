@@ -6,7 +6,7 @@ import Resources from "./Resources";
 
 const Content = () =>{
     return(
-        <div className="w-[327px]">
+        <div className="w-[327px] mx-[24px] mt-[10px]">
             <div>
                 <button className="text-center text-[16px] w-[327px] h-[58px] bg-[#2752E7] text-white rounded-[8px]" >Trade</button>
             </div>

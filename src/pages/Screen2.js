@@ -5,13 +5,9 @@ import FooterNavbar from "../components/Screen2/FooterNavbar";
 const Screen2=() =>{
     return(
         <>
-            <div>
-                <Topbar/>
-                <div className="px-[24px] pt-[10px]">
-                    <Content/>
-                </div>
-                <FooterNavbar />
-            </div>
+            <Topbar/>
+            <Content/>
+            <FooterNavbar />
         </>
     )
 }
