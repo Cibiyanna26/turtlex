@@ -2,7 +2,7 @@ import React from "react";
 import AboutBitcoin from "./AboutBitcoin";
 import MarketStats from "./MarketStats";
 import Resources from "./Resources";
-import { notifyMessage } from "../../utils/notify";
+import {  notifySuccess } from "../../utils/notify";
 import { Toaster } from "react-hot-toast";
 import SalesUp from '../../assets/sales-up-graph-svgrepo-com.svg'
 const Content = () =>{
@@ -10,7 +10,7 @@ const Content = () =>{
         <div className="mx-[24px] my-[15px] fade-up fade-up">
             <Toaster/>
             <div>
-                <button onClick={()=>notifyMessage('Trade Started')} className="text-center flex flex-row  gap-[12px] items-center justify-center text-[24px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">
+                <button onClick={()=>notifySuccess('Trade Started')} className="text-center flex flex-row  gap-[12px] items-center justify-center text-[24px] w-full h-[58px] bg-[#2752E7] hover:bg-[#2751e7de] text-white rounded-[8px]" aria-label="trade-button">
                     Trade<img src={SalesUp} className="w-[24px] h-[24px]"></img> 
                 </button>
             </div>
