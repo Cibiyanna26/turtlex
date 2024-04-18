@@ -20,9 +20,10 @@ You may also see any lint errors in the console.
 
 ## instruction
 
- 1) initially sign in page will be show after sign in , after signed in successfully you will be redirected to home page
- 2) without signin you can move to home page by click the close button in sign in page
- 3) in home page on the top the back button redirect you to signin page
+1) To setup the project , run npm install command to download all package
+2) npm start command helps to run the project
+3) there are two screens home and sign in
+4) the navigation for these pages are provided in the bottom navbar
 
 ## Screen 1
 
