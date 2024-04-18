@@ -24,7 +24,7 @@ const Topbar = () =>{
     return(
         <>
             <div 
-                className="w-[100vw]  h-[56px] py-[16px] px-[24px] flex justify-between items-center text-[18px] border-[1px] border-[#white]"
+                className="w-[100vw] bg-white   z-40 fixed h-[56px] py-[16px] px-[24px] flex justify-between items-center text-[18px] border-[1px] border-[#white]"
             >
                 <Link to={'/signin'} className="" aria-label="navigate to sign in page" title="back to sign in" >
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

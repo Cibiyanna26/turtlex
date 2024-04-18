@@ -7,13 +7,13 @@ import { Toaster } from 'react-hot-toast';
 const Screen1 = () =>{
     
     return(
-        <>
+        <div className="h-[100vh]">
         
                 <Toaster/>
                 <Close/>
                 <Login/>
                 <Footer/>
-        </>
+        </div>
     )
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const FooterNavbar = () => {
     return(
         <>
-            <div className="w-[100vw] h-[84px] border-[1px] border-[#CFCFCF] bg-white  flex flex-col justify-center">
+            <div className="w-[100vw] fixed bottom-0  h-[84px] border-[1px] border-[#CFCFCF] z-40 bg-white  flex flex-col justify-center">
                 <div className="relative top-[7px] px-[37.5px]  h-[43px] flex flex-row justify-center gap-[35px]">
                     <div className="flex flex-col items-center w-[24px] h-[40px]">
                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
