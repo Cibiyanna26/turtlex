@@ -48,7 +48,7 @@ const Login = () =>{
                 <div className="w-[327px] flex flex-col gap-[56px]">
                     <div className="flex flex-col gap-[48px]">
                         <div className="flex flex-col gap-[32px]">
-                            <h1 className="text-[22px] font-semibold tracking-tighter w-[143px] h-[32px]">Sign in to Coinbase</h1>
+                            <h1 className="text-[22px] font-semibold tracking-tighter h-[32px]">Sign in to Coinbase</h1>
                             <div className="flex flex-col gap-[16px]">
                                 <div className="w-[327px] h-[88px] flex flex-col gap-[8px]">
                                     <label htmlFor="" className="text-[16px]">Email</label>
