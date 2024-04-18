@@ -49,5 +49,9 @@ You may also see any lint errors in the console.
 
 ![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/b967b421-a5ad-40a5-933a-ce8d1d1dc88e)
 
+## Bottom Navigation
+
+![image](https://github.com/Cibiyanna26/turtlex/assets/121782238/a03533ce-2f66-4239-aaca-3819aaa10555)
+
 
 
