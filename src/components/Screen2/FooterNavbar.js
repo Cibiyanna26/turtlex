@@ -40,7 +40,6 @@ const FooterNavbar = () => {
                         <div className="tracking-wide text-[10px]">Settings</div>
                     </div>
                 </div>
-                <Footer/>
             </div>
         </>
     )
